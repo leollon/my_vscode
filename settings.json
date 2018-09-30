@@ -17,6 +17,8 @@
         79
     ],
     "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "pylint",
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "python.formatting.autopep8Path": "/usr/local/bin/pycodestyle",
     "python.formatting.provider": "autopep8",
@@ -29,5 +31,9 @@
     "terminal.integrated.rendererType": "dom",
     "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+    "python.formatting.autopep8Args": [
+        "--select errors"
+    ]
 }
+

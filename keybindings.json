@@ -71,5 +71,9 @@
     {
         "key": "alt+s alt+t",
         "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "alt+c alt+t",
+        "command": "workbench.action.tasks.configureTaskRunner"
     }
 ]
