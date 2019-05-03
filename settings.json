@@ -1,13 +1,15 @@
 {
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
+    // "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.settings.editor": "json",
     "workbench.colorTheme": "Nova",
-    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
     "html.format.enable": true,
     "html.format.wrapLineLength": 79,
-    "code-runner.executorMap": {
-        "python": "python"
-    },
+    // related to editor
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
@@ -17,23 +19,43 @@
         79
     ],
     "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    // related to terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.rendererType": "dom",
+    // related to extesion
     "python.linting.pylintEnabled": true,
     "python.linting.pylintPath": "pylint",
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
-    "python.formatting.autopep8Path": "/usr/local/bin/pycodestyle",
+    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
     "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--select errors"
+    ],
+    "code-runner.executorMap": {
+        "python": "python"
+    },
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "terminal.integrated.fontSize": 16,
-    "workbench.editor.enablePreview": false,
-    "window.menuBarVisibility": "default",
-    "terminal.integrated.rendererType": "dom",
-    "window.zoomLevel": 0,
-    "editor.formatOnPaste": true,
-    "workbench.settings.editor": "json",
-    "python.formatting.autopep8Args": [
-        "--select errors"
-    ]
+    "markdown-pdf.executablePath": "/usr/bin/google-chrome",
+    "markdown-pdf.displayHeaderFooter": false,
+    "python.linting.mypyCategorySeverity.error": "Error",
+    "python.linting.mypyCategorySeverity.note": "Information",
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "goreturns",
+    "go.gocodeAutoBuild": false,
+    "go.lintTool": "revive",
+    "breadcrumbs.enabled": true,
+    //"C_Cpp.updateChannel": "Insiders",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
 }
-
