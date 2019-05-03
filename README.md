@@ -27,7 +27,7 @@
     ],
     "editor.formatOnSave": true,
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
-    "python.formatting.autopep8Path": "/usr/local/bin/pycodestyle",
+    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
     "python.formatting.provider": "autopep8",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
